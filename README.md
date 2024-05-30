@@ -1,6 +1,14 @@
 # Introduction:
 In this blog post, we'll explore how to use Terraform, an infrastructure as code tool, to provision resources on Amazon Web Services (AWS). We'll walk through a sample Terraform configuration that creates a basic AWS environment consisting of VPC, EC2 instances, S3 bucket, Auto Scaling Group, Load Balancer, and more.
 
+# commands:
+tfenv list 
+The tfenv list command is used to list all the installed versions of Terraform on your system.
+terraform init
+terraform plan
+terraform apply
+terraform destroy
+
 # Setting up the VPC:
 
 The Virtual Private Cloud (VPC) is the foundational networking component in AWS.
